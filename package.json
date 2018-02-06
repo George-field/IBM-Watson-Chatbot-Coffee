@@ -1,0 +1,21 @@
+{
+  "name": "coffeechatbot",
+  "version": "1.0.0",
+  "description": "coffee order chatbot",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://georgeaffield@bitbucket.org/georgeaffield/coffeeorderchatbot.git"
+  },
+  "author": "George Field",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/georgeaffield/coffeeorderchatbot#readme"
+}
