@@ -20,15 +20,15 @@ app.post('/message', function(req, res){
 
     //creates a new instance of the Watson Conversation and sets the varialbles to my serivce username and password.
     var conversation = new watson.ConversationV1({
-        username: 'e3c7450c-33cb-46c3-8cb6-144a26dc1df5',
-        password: 'm6pGgk3tJbtO',
+        username: 'Insert Username Here',
+        password: 'Password Goes here',
         version_date:'2017-05-26'
     });
     //Below code block - Takes the input from the SMS message and adds it to a http request body in the watson libary. It then Sends that
     //message to my serivce that I have created.
     conversation.message({
         input:{text:msgBody},
-        workspace_id: '40e25ea1-0064-45e4-b334-b1c693ceead1',
+        workspace_id: 'WorkspaceID Here',
     }, function(err, response){
         if(err){
             console.log(err)//logging any errors
